@@ -1,0 +1,83 @@
+ <RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="261dp"
+         android:src="@drawable/androidparty3" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="46dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginEnd="0dp"
+         android:layout_marginBottom="358dp"
+         android:background="#E53935"
+         android:padding="5dp"
+         android:text="THE CHAI WALA"
+         android:textColor="@color/black"
+         android:textSize="30sp"
+         android:textStyle="bold" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="322dp"
+         android:background="@color/white"
+         android:padding="5sp"
+         android:text="ph.no:9504567899"
+         android:textColor="@color/black"
+         android:textSize="20sp"
+         android:textStyle="italic" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="207dp"
+         android:background="#C2185B"
+         android:padding="5sp"
+         android:text="adress:near kfc chicken centre,Pothanacolony, v: godhavari khani
+RAMAGUNDAM,"
+         android:textColor="@color/black"
+         android:textSize="25sp"
+         android:textStyle="italic" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="134dp"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="75dp"
+         android:background="#EA80FC"
+         android:text="timings differ from sundays
+
+
+                            :morning:9:30to12:30
+                               :evening:5:00to9:00"
+         android:textColor="@color/black"
+         android:textSize="25sp"
+         android:textStyle="italic"
+         android:padding="5sp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="80dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginEnd="0dp"
+         android:layout_marginBottom="0dp"
+         android:background="@color/black"
+         android:padding="10sp"
+         android:text="discription:this is famous for gingertea
+visit again"
+         android:textColor="@color/white"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+ </RelativeLayout>
